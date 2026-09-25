@@ -108,6 +108,8 @@ I build reliable infrastructure, Kubernetes self-healing control planes, and det
 
 In addition to core DevOps/SRE systems, I maintain automation toolsets in growth engineering and desktop telemetry:
 
+- **[autonomous-trading-agents-platform](https://github.com/Swastik023/autonomous-trading-agents-platform):** Autonomous multi-agent financial trading framework orchestrating specialized LLM agents over stateful LangGraph execution graphs.
+- **[quantitative-trading-handbook](https://github.com/Swastik023/quantitative-trading-handbook):** Comprehensive architecture handbook and knowledge portal covering systematic trading libraries, market data APIs, and algorithmic execution.
 - **[ai-marketing-operations-platform](https://github.com/Swastik023/ai-marketing-operations-platform):** Multi-channel growth engineering platform orchestrating programmatic SEO and Meta Marketing API campaign automation.
 - **[realtime-streaming-telemetry](https://github.com/Swastik023/realtime-streaming-telemetry):** Low-latency WebSocket bridge streaming real-time desktop productivity telemetry to OBS Studio.
 - **[marketing-api-automation-mcp](https://github.com/Swastik023/marketing-api-automation-mcp):** Model Context Protocol (MCP) server providing LLM agents with structured tooling for search and ads analytics.
