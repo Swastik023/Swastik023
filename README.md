@@ -1,115 +1,130 @@
-<div align="center">
-
 # Swastik Agnihotri
-### Systems Architect • SRE & Cloud Reliability Engineer • Agentic AI Specialist
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Website-0969da?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/Swastik023)
-[![Email](https://img.shields.io/badge/Contact-swastikwork007%40gmail.com-0284c7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swastikwork007@gmail.com)
-[![Status](https://img.shields.io/badge/Status-Available_for_Opportunities-10b981?style=for-the-badge)](mailto:swastikwork007@gmail.com)
+**DevOps / SRE Engineer · Cloud Infrastructure · Kubernetes · AI Systems**
 
-<br/>
+I build reliable infrastructure, Kubernetes self-healing control planes, and deterministic automation for distributed systems and AI workflows.
 
-```text
-Autonomous Kubernetes Control Planes • Deterministic Agent DAGs • High-Throughput Distributed Systems
-```
+[LinkedIn](https://linkedin.com/in/swastik-agnihotri) · [Portfolio](https://github.com/Swastik023) · [Email](mailto:swastikwork007@gmail.com)
 
 ---
 
-</div>
+### Core Technologies
 
-## 📌 Executive Summary
-
-I am a **Systems Engineer and Technical Architect** specializing in the intersection of **Cloud SRE, Autonomous Incident Remediation, and Deterministic Agentic AI**. 
-
-My core focus is replacing brittle operational playbooks with **bounded, policy-governed control planes**, architecting multi-tenant platforms capable of sub-millisecond telemetry, and implementing distributed AI agent runtimes grounded in formal verification.
+`Kubernetes` `Docker` `Terraform` `Python` `TypeScript` `Go` `FastAPI` `Next.js` `PostgreSQL` `Redis` `Prometheus` `OpenTelemetry`
 
 ---
 
-## 🏛️ Featured Engineering Platforms
+## Engineering Focus
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🛡️ Autonomous Kubernetes SRE Platform</h3>
-      <p><b><code>kubernetes-sre-incident-platform</code></b></p>
-      <p>Self-healing SRE control plane executing bounded, policy-guarded incident remediation across Kubernetes clusters. Leverages LangGraph state machines, Prometheus metrics, and Open Policy Agent (OPA) safety boundaries.</p>
-      <p><b>Stack:</b> <code>Kubernetes</code> • <code>LangGraph</code> • <code>OPA</code> • <code>Prometheus</code> • <code>Python</code></p>
-    </td>
-    <td width="50%">
-      <h3>🎓 Multi-Tenant Examination SaaS</h3>
-      <p><b><code>online-assessment-engine</code></b></p>
-      <p>Enterprise computer-based assessment engine featuring timed multi-section test delivery, automated rubric grading, tamper-resistant client sessions, and <b>358 automated test suites</b>.</p>
-      <p><b>Stack:</b> <code>Next.js 16</code> • <code>TypeScript</code> • <code>MongoDB</code> • <code>TailwindCSS</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🕷️ Visual Data Extraction Studio</h3>
-      <p><b><code>ai-web-scraping-platform</code></b></p>
-      <p>Visual node-based web data extraction studio built with React Flow. Features drag-and-drop workflow orchestration, automated schema inference, and resilient anti-bot bypass strategies.</p>
-      <p><b>Stack:</b> <code>React Flow</code> • <code>Next.js</code> • <code>Prisma</code> • <code>Puppeteer</code></p>
-    </td>
-    <td width="50%">
-      <h3>🏫 Coaching Institute ERP Platform</h3>
-      <p><b><code>coaching-institute-erp</code></b></p>
-      <p>Production-grade institutional ERP managing batch scheduling, teacher session accounting, automated student attendance, and comprehensive employee payroll processing.</p>
-      <p><b>Stack:</b> <code>Next.js 16</code> • <code>Node.js</code> • <code>MongoDB</code> • <code>Server Actions</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🧠 Adaptive Knowledge Synthesizer</h3>
-      <p><b><code>ai-adaptive-learning-platform</code></b></p>
-      <p>Multimodal pipeline transforming raw unstructured lecture audio into grounded, editable visual concept graphs with automated hallucination evaluation benchmarks.</p>
-      <p><b>Stack:</b> <code>FastAPI</code> • <code>PostgreSQL</code> • <code>pgvector</code> • <code>Whisper</code></p>
-    </td>
-    <td width="50%">
-      <h3>📈 Digital Marketing Operations OS</h3>
-      <p><b><code>ai-marketing-operations-platform</code></b></p>
-      <p>Multi-channel growth engineering platform orchestrating programmatic SEO generation, Meta Marketing API campaign automation, and cookieless attribution analytics.</p>
-      <p><b>Stack:</b> <code>Next.js</code> • <code>Meta Graph API</code> • <code>ClickHouse</code> • <code>MCP</code></p>
-    </td>
-  </tr>
-</table>
+- **Kubernetes & Cloud Infrastructure:** Cluster deployment, container orchestration, GitOps workflows, and resource governance.
+- **SRE & Incident Automation:** Bounded self-healing control planes, automated root-cause diagnosis, and policy-guarded remediation loops.
+- **Observability & Distributed Tracing:** OpenTelemetry instrumentations, Prometheus metric schemas, alert-budget management, and Grafana dashboards.
+- **AI Runtimes & Deterministic Workflows:** State-machine-backed agentic execution, structured LLM extraction, evaluation benchmarks, and DAG orchestration.
+- **Platform Engineering & Multi-Tenancy:** Role-based access control, tenant isolation, transactional workflows, and schema validation.
+- **Delivery & Reliability Quality:** Continuous integration, strict static analysis, and end-to-end regression test suites.
 
 ---
 
-## 🛠️ Technical Competencies & Architecture
+## Selected Systems
+
+### [kubernetes-sre-incident-platform](https://github.com/Swastik023/kubernetes-sre-incident-platform)
+**Autonomous Kubernetes incident-response platform that investigates cluster alerts, evaluates remediation policies, and executes guarded recovery actions.**
+- **Problem:** Production Kubernetes alerts frequently lead to repetitive diagnostic workflows and manual remediation risks during critical incidents.
+- **System:** A modular control plane combining asynchronous API collectors, LangGraph cyclical state graphs, and Open Policy Agent (OPA) validation gates.
+- **Technical Capabilities:** Evaluates incident runbooks, verifies target cluster health via Prometheus metrics, enforces strict OPA security constraints before executing actions, and checkpoints recovery state across distributed worker nodes.
+- **Stack:** `Kubernetes` `Python` `FastAPI` `LangGraph` `Open Policy Agent` `Temporal` `Prometheus` `OpenTelemetry`
+
+---
+
+### [online-assessment-engine](https://github.com/Swastik023/online-assessment-engine)
+**Multi-tenant online examination engine designed for deterministic test delivery, rubric grading, and tamper-resistant student sessions.**
+- **Problem:** Concurrent online assessments require strict session isolation, negative-marking accuracy, and zero state drift across volatile client connections.
+- **System:** High-reliability Next.js App Router application backed by PostgreSQL, Redis-backed rate limiters, and a comprehensive automated test harness.
+- **Technical Capabilities:** Multi-section timed test delivery, deterministic score calculation with penalty weights, role-based access control, and full offline/online attempt synchronization backed by **358 automated tests**.
+- **Stack:** `Next.js 15` `TypeScript` `Prisma` `PostgreSQL` `Redis` `Docker` `Jest`
+
+---
+
+### [ai-web-scraping-platform](https://github.com/Swastik023/ai-web-scraping-platform)
+**Visual node-based data extraction platform executing drag-and-drop web scraping workflows with schema inference.**
+- **Problem:** Traditional web scrapers break on DOM updates, require brittle manual scripts, and lack visual observability into complex multi-step pipelines.
+- **System:** React Flow interactive DAG workflow canvas coupled with a server-side headless browser cluster and automated structured data extraction.
+- **Technical Capabilities:** Visual execution graphs, automated schema parsing, rate-limited browser automation via Puppeteer, and transactional run logging in PostgreSQL.
+- **Stack:** `Next.js 14` `TypeScript` `React Flow` `Puppeteer` `Prisma` `PostgreSQL` `OpenTelemetry`
+
+---
+
+### [coaching-institute-erp](https://github.com/Swastik023/coaching-institute-erp)
+**Production-oriented educational ERP managing institutional scheduling, attendance verification, and payroll accounting.**
+- **Problem:** Coaching institutes face administrative drift reconciling teacher lecture logs, dynamic batch timetables, and monthly teacher compensation.
+- **System:** Multi-portal administrative suite featuring distinct roles for administrators, teachers, students, and accountants.
+- **Technical Capabilities:** Batch conflict detection, lecture attendance verification, automated payroll generation based on completed sessions, and secure document vaults.
+- **Stack:** `Next.js 15` `TypeScript` `Node.js` `MongoDB` `Server Actions` `Playwright`
+
+---
+
+### [ai-adaptive-learning-platform](https://github.com/Swastik023/ai-adaptive-learning-platform)
+**Multimodal educational knowledge pipeline converting unstructured audio into grounded concept graphs with hallucination benchmarks.**
+- **Problem:** Educational content generated from audio recordings often suffers from unchecked factual drift and fragmented structure.
+- **System:** Asynchronous processing pipeline linking speech transcription, vector embeddings, and visual graph extraction.
+- **Technical Capabilities:** Chunked audio transcription, vector similarity retrieval in pgvector, entity-relationship graph compilation, and automated groundedness evaluation benchmarks.
+- **Stack:** `Python` `FastAPI` `PostgreSQL` `pgvector` `Docker` `Pydantic`
+
+---
+
+## Technical Competencies
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│  CLOUD & RELIABILITY:  Kubernetes, Docker, ArgoCD, Prometheus, Grafana, OpenBao, OPA   │
-│  AGENTIC AI & RUNTIMES: LangGraph, CrewAI, AutoGen, Model Context Protocol (MCP), LiteLLM│
-│  LANGUAGES & CORE:     TypeScript, Python, Go, Rust, SQL, Bash / POSIX Shell           │
-│  FULL-STACK & DATA:    Next.js 16, React 19, FastAPI, PostgreSQL, MongoDB, ClickHouse  │
-│  ENGINEERING DISCIPLINE: Test-Driven Development (TDD), CI/CD Pipelines, Zero-Trust     │
+│ CLOUD & INFRASTRUCTURE:  Kubernetes, Docker, Helm, Linux (Systemd, POSIX), GitOps      │
+│ RELIABILITY & SRE:       Prometheus, OpenTelemetry, Grafana, Alertmanager, OPA         │
+│ BACKEND & PLATFORMS:     Python (FastAPI), TypeScript, Node.js, Go, REST, WebSockets    │
+│ DATA STORES & CACHE:     PostgreSQL, MongoDB, Redis, pgvector                          │
+│ AI SYSTEMS & AUTOMATION: LangGraph, Model Context Protocol (MCP), LiteLLM, RAG Pipeline│
+│ CI/CD & TESTING:         GitHub Actions, Jest, Pytest, Playwright, Strict Mypy / TS    │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-| Layer | Technologies & Disciplines | Architectural Focus |
-|---|---|---|
-| **SRE & Infrastructure** | Kubernetes, Docker, Helm, ArgoCD, Linux, Systemd, Cgroups | Chaos-resilient self-healing operators, bounded blast radiuses, GitOps |
-| **Agentic AI & LLMs** | LangGraph, OpenAI SDK, LiteLLM, Vector Stores (Qdrant, pgvector) | Cyclic state graphs, persistent checkpointing, prompt engineering |
-| **Backend & APIs** | Python (FastAPI), Go, Node.js, REST, WebSockets, gRPC | High-concurrency event loops, zero-latency streaming pipelines |
-| **Frontend & UX** | Next.js 16 (App Router), React 19, React Flow, TailwindCSS | Real-time reactive studios, glassmorphism, responsive dashboards |
-| **Observability & Security** | OpenTelemetry, Prometheus, Alertmanager, Open Policy Agent | Structured distributed tracing, SLIs/SLOs, zero-trust RBAC |
+---
+
+## Engineering Principles
+
+1. **Deterministic Guards on Autonomous Systems:** Never allow an automated agent or pipeline to mutate production state without strict, bounded policy constraints (e.g., OPA validation gates and human-in-the-loop triggers).
+2. **Observability as an Architectural Requirement:** Metrics, structured logs, and distributed traces must be integrated directly into service boundaries—not bolted on after an outage.
+3. **Automate Failure Scenarios:** Systems must be designed and tested assuming dependencies, networks, and nodes will fail. Verification requires chaos testing and automated regression suites.
+4. **Evidence Over Assumptions:** Rely on measurable telemetry, test suites, and reproducible builds rather than optimistic code paths.
 
 ---
 
-## 📊 Engineering Disciplines
+## Professional Background
 
-- **Bounded Autonomous Systems:** AI agents operating with deterministic fallbacks and hard safety invariants (no unconstrained execution loops).
-- **Test-Driven Rigor:** Comprehensive test suites across unit, integration, and E2E layers before deployment.
-- **Observable by Default:** Systems engineered with standardized Prometheus metric endpoints and OpenTelemetry trace propagation.
+- **~4 years of software engineering experience** working across DevOps, cloud infrastructure, SRE automation, and full-stack platform development.
+- Background in architecting cloud-native control planes, automating deployment pipelines, and building mission-critical SaaS architectures.
+- Experience implementing automated incident response systems, Kubernetes reliability engineering, and resilient distributed applications.
+
+---
+
+## Other Systems & Experiments
+
+In addition to core DevOps/SRE systems, I maintain automation toolsets in growth engineering and desktop telemetry:
+
+- **[ai-marketing-operations-platform](https://github.com/Swastik023/ai-marketing-operations-platform):** Multi-channel growth engineering platform orchestrating programmatic SEO and Meta Marketing API campaign automation.
+- **[realtime-streaming-telemetry](https://github.com/Swastik023/realtime-streaming-telemetry):** Low-latency WebSocket bridge streaming real-time desktop productivity telemetry to OBS Studio.
+- **[marketing-api-automation-mcp](https://github.com/Swastik023/marketing-api-automation-mcp):** Model Context Protocol (MCP) server providing LLM agents with structured tooling for search and ads analytics.
+
+---
+
+## Currently
+
+- Extending policy-driven self-healing routines and automated canary remediation in Kubernetes clusters.
+- Refining deterministic evaluation harnesses for agentic workflows and LLM tool execution.
+- Optimizing high-concurrency event loops in distributed platform backends.
 
 ---
 
 <div align="center">
 
-### 🤝 Let's Connect & Collaborate
-
-**Interested in building high-reliability platforms or autonomous cloud systems together?**
-
-[swastikwork007@gmail.com](mailto:swastikwork007@gmail.com) • [LinkedIn](https://linkedin.com/in/swastik-agnihotri) • [GitHub](https://github.com/Swastik023)
+**Swastik Agnihotri**  
+[swastikwork007@gmail.com](mailto:swastikwork007@gmail.com) · [GitHub Profile](https://github.com/Swastik023) · [LinkedIn](https://linkedin.com/in/swastik-agnihotri)
 
 </div>
