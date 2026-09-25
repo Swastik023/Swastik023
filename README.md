@@ -19,15 +19,13 @@
 
 ### ⚡ Quick Overview for Engineering Managers & Recruiters
 
-```text
-┌─────────────────────────┬────────────────────────────────────────────────────────┐
-│ PRIMARY ROLE            │ DevOps / SRE Engineer · Cloud Infrastructure Architect │
-│ EXPERIENCE              │ ~4 Years (SRE Automation, Cloud Architecture, Full-Stack)│
-│ CORE SPECIALTY          │ Kubernetes, Self-Healing Control Planes, GitOps, OPA   │
-│ SECONDARY FOCUS         │ Autonomous AI Agent Runtimes & Multi-Tenant SaaS       │
-│ ENGINEERING DISCIPLINE  │ Strict Policy Guardrails, Chaos-Tested, Zero Untested  │
-└─────────────────────────┴────────────────────────────────────────────────────────┘
-```
+| Focus Area | Engineering Profile & Highlights |
+|:---|:---|
+| **Target Roles** | **DevOps / SRE Engineer · Cloud Infrastructure Architect · AI Platform Engineer** |
+| **Experience** | **~4 Years** spanning SRE automation, cloud-native control planes, and mission-critical SaaS |
+| **Core Specialization** | **Kubernetes**, Bounded Self-Healing Control Planes, GitOps, Open Policy Agent (OPA) |
+| **Secondary Focus** | **Autonomous AI Agent Runtimes**, Multi-Tenant SaaS & Low-Latency Event Streaming |
+| **Engineering Bar** | **Deterministic Guardrails**, Chaos Verification & Observability-First Architecture |
 
 ---
 
